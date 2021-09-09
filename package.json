@@ -21,6 +21,6 @@
   "scripts": {
     "test": "./node_modules/.bin/jest",
     "clean": "rimraf -rf dist",
-    "build": "rimraf -rf dist && ./node_modules/.bin/webpack"
+    "build": "yarn clean && yarn test && ./node_modules/.bin/webpack"
   }
 }

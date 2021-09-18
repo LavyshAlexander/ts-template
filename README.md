@@ -1,6 +1,6 @@
 # TypeScript Project Template
 
-This is a template for TypeScript project with jest test and debug included.
+This is a template for TypeScript project with mocha / chai test and debug included.
 
 
 ## Prerequirements

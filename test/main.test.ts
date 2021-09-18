@@ -1,7 +1,10 @@
 import { main } from '../src'
+import 'mocha'
+import { expect } from 'chai'
+
 
 describe( 'hello', () => {
 	it( 'test', () => {
-		main()
+		expect(main).to.not.throw()
 	} )
 })
